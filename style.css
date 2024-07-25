@@ -1,0 +1,93 @@
+body {
+    background-image: url('pexels-padrinan-255379.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(199, 227, 244, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+#new-task {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #288ca7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #288ca7;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #7b8fb1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li.complete {
+    text-decoration: line-through;
+    color: rgb(241, 239, 239);
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.task-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-buttons .complete-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.task-buttons .complete-btn:hover {
+    background-color: #0056b3;
+}
+
+.task-buttons .delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.task-buttons .delete-btn:hover {
+    background-color: #c82333;
+}
